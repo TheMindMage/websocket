@@ -2,7 +2,7 @@
 const WebSocket = require('ws');
 
 module.exports = async (req, res) => {
-  const ws = new WebSocket('wss://your-websocket-server-url');  // Replace with your WebSocket server URL
+  const ws = new WebSocket('wss://websocket.magelearning.academy');  // Replace with your WebSocket server URL
   
   ws.on('open', function open() {
     console.log('WebSocket connected');
